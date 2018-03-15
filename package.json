@@ -1,0 +1,10 @@
+{
+  "name": "idp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "browserify --standalone idp index.js -o dist/idp.js"
+  },
+  "license": "MIT"
+}
