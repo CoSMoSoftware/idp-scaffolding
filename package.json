@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "browserify --standalone idp index.js -o dist/idp.js"
+    "dist": "mkdir dist && browserify --standalone register index.js --require ./config.json:config.json -o dist/idp.js && echo 'register();' >> dist/idp.js "
   },
   "license": "MIT"
 }
